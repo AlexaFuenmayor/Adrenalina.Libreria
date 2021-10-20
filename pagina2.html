@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+    <title>Librería</title>
+</head>
+
+<body class="pagina2">
+
+    <div id="movie" class="nav1">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand titulo " href="#">Librería + </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex">
+
+                        <div class="login d-flex flex-row justify-content-center mt-4">
+                            <div class="iconodetails">
+                                <a id="login1" class="nav-link" href="#"><img onmouseover="show()" onmouseout="show()"
+                                        width="35px" src="icons/user.png" alt="user" />
+                                </a>
+                                <p id="textLogin">login</p>
+                            </div>
+
+                            <div class="iconodetails">
+                                <a id="login2" href="#">
+                                    <img onmouseover="show2()" onmouseout="show2()" width="35px" src="icons/salir.svg"
+                                        alt="logout" />
+                                </a>
+
+                                <p id="textLogout">logout</p>
+                            </div>
+
+                            <div class="iconodetails">
+                                <p id="loginUser" class="nav-user"> </p>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        
+    </div>
+
+    <div class="card">
+        <h3 class="card-header">Entrada a Librería</h3>
+        <div class="card-body">
+          
+          <button class="btn btn-primary" id="bibliot"  > ENTRADA BIBLIOTECA
+
+        </button>
+        </div>
+      </div>
+      <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/zMMcP4lHssg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br>
+      <br>
+
+
+      <div class="mapa">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1R5iGanNol21cx-VSCgDZg1uHwYs" width="640" height="480"></iframe>
+    </div>
+
+    
+
+
+    <footer class="text-center text-white fixed-bottom" style=" background-color: #21081a;">
+
+        <div class="container p-2"></div>
+
+
+
+        <div class="text-center p-1">
+            © 2021 Copyright:
+            <a class="text-white" href="#">Librería Plus</a>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+
+        <script src="JS/js2.js"></script>
+
+</body>
+
+</html>
